@@ -1,0 +1,22 @@
+https://sap.github.io/ui5-tooling/pages/GettingStarted/
+https://sapui5.hana.ondemand.com/#/topic/3da5f4be63264db99f2e5b04c5e853db
+https://sapui5.hana.ondemand.com/#/topic/5bb388fc289d44dca886c8fa25da466e.html
+
+crear las carperas, el proyecto y dentro webapp
+instalar el ui5             npm install @ui5/cli
+creamos el package.json     npm init --yes
+creamos el ui5.yaml         ui5 init
+creamos el manifest.json en webapp
+tomamos el json que aparece en
+https://help.sap.com/saphelp_snc700_ehp04/helpdata/de/3a/9babace121497abea8f0ea66e156d9/content.htm?no_cache=true
+elegimos el framework y version
+                            ui5 use openui5@lastest
+                            ui5 use openui5@lastest
+
+inicio                      ui5 serve
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+entra a la herramienta desde la pagina con la combinacion  CTRL+ALT+SHIFT+S
