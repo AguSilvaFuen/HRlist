@@ -1,7 +1,16 @@
 <mvc:View controllerName="project1.controller.Lista"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-        <content />
-    </Page>
+    <List
+        headerText="{i18n>invoiceListTitle}"
+        class="saUiResponsiveMargin"
+        width="auto"
+        items="{
+            path: '/employeeSet'
+            }">
+        <items>
+            <ObjectListItem
+                title="{Ename} {Pernr}"/>
+        </items>
+    </List>
 </mvc:View>
