@@ -5,7 +5,7 @@ sap.ui.define([
 ], function (ManagedObject, Fragment, syncStyleClass) {
     "use strict"
 
-    return ManagedObject.extend("sap.ui.walkthrough.controller.HelloDialog", {
+    return ManagedObject.extend("HRlist.controller.HelloDialog", {
 
         constructor: function (oView) {
             this._oView = oView
@@ -29,7 +29,7 @@ sap.ui.define([
                 // load asynchronous XML fragment
                 Fragment.load({
                     id: oView.getId(),
-                    name: "sap.ui.demo.walkthrough.view.HelloDialog",
+                    name: "HRlist.view.HelloDialog",
                     controller: oFragmentController
                 }).then(function (oDialog) {
                     // connect dialog to the root view of the component (models, lifecycle)

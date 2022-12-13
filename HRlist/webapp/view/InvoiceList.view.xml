@@ -1,5 +1,5 @@
 <mvc:View
-controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
+controllerName="HRlist.controller.InvoiceList"
 xmlns="sap.m"
 xmlns:mvc="sap.ui.core.mvc">
     <Panel accessibleRole="Region">

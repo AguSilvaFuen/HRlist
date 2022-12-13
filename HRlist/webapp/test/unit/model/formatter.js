@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"sap/ui/demo/walkthrough/model/formatter",
+	"HRlist/model/formatter",
 	"sap/ui/model/resource/ResourceModel"
 ], function (formatter, ResourceModel) {
 	"use strict";
@@ -9,7 +9,7 @@ sap.ui.define([
 	QUnit.module("Formatting functions", {
 		beforeEach: function () {
 			this._oResourceModel = new ResourceModel({
-				bundleUrl: sap.ui.require.toUrl("sap/ui/demo/walkthrough") + "/i18n/i18n.properties"
+				bundleUrl: sap.ui.require.toUrl("HRlist") + "/i18n/i18n.properties"
 			});
 		},
 		afterEach: function () {

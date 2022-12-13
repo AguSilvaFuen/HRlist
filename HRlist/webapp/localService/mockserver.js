@@ -7,7 +7,7 @@ sap.ui.define([
     return {
         init: function () {
             var oMockServer = new MockServer({
-                rootUri: "https://services.odata.org/V2/Northwind/Northwind.svc/"
+                rootUri: "http://idessp8.com:8080/sap/opu/odata/sap/ZMG_EMPLOYEE_LIST_SRV/"
             });
 
             var oUriParameters = new UriParameters(window.location.href);

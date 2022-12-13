@@ -1,4 +1,4 @@
-<mvc:View controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
+<mvc:View controllerName="HRlist.controller.HelloPanel"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
     <Panel 

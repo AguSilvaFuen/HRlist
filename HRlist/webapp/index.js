@@ -5,9 +5,9 @@ sap.ui.define([
 
 	new ComponentContainer({
 
-		name: "sap.ui.demo.walkthrough",
+		name: "HRlist",
 		settings: {
-			id: "walkthrough"
+			id: "listaHR"
 		},
 
 	async: true

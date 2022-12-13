@@ -6,7 +6,7 @@ sap.ui.define([
     "sap/ui/Device"
 ], function (UIComponent, JSONModel, ResourceModel, HelloDialog, Device) {
     'use strict';
-    return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
+    return UIComponent.extend("HRlist.Component", {
         metadata: {
             manifest: "json"
         },
