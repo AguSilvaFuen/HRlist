@@ -1,5 +1,5 @@
 {
-  "name": "projectlist",
+  "name": "package",
   "version": "0.0.1",
   "private": true,
   "description": "A Fiori application.",
@@ -9,7 +9,6 @@
     "sapui5"
   ],
   "main": "webapp/index.html",
-  "dependencies": {},
   "devDependencies": {
     "@ui5/cli": "^2.14.1",
     "@sap/ux-ui5-tooling": "1",
@@ -33,5 +32,7 @@
       "@sap-ux/ui5-middleware-fe-mockserver"
     ]
   },
-  "sapuxLayer": "CUSTOMER_BASE"
+  "sapuxLayer": "CUSTOMER_BASE",
+  "author": "",
+  "license": "ISC"
 }

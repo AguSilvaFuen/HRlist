@@ -29,3 +29,6 @@ server:
       configuration:
         component: projectlist
         ui5Theme: sap_fiori_3_dark
+framework:
+  name: OpenUI5
+  version: "1.109.0"
