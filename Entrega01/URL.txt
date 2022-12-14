@@ -1,0 +1,3 @@
+http://idessp8.com:8080/sap/opu/odata/sap/ZMG_EMPLOYEE_LIST_SRV/employeeSet(Pernr='00000001')
+
+http://idessp8.com:8080/sap/opu/odata/sap/ZMG_EMPLOYEE_LIST_SRV/employeeSet?$filter=Pernr eq '00000001' &$format=json
