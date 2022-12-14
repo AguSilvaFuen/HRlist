@@ -6,11 +6,11 @@ xmlns:mvc="sap.ui.core.mvc">
         class="saUiResponsiveMargin"
         width="auto"
         items="{
-            path: '/employee'
+            path: '/employeeSet'
             }">
         <items>
             <ObjectListItem
-                title="{Pernr}"/>
+                title="{Ename} {Pernr}"/>
         </items>
     </List>
 </mvc:View>

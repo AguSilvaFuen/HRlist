@@ -69,9 +69,6 @@
           "bundleName": "projectlist.i18n.i18n"
         }
       },
-      "invoice": {
-        "dataSource": "invoiceRemote"
-    },
       "": {
         "dataSource": "mainService",
         "preload": true,
