@@ -1,5 +1,9 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
-    <Table id="invoiceList" headerText="{i18n>invoiceListTitle}" class="saUiResponsiveMargin" width="auto" items="{
+<mvc:View controllerName="projectlist.controller.EmployeeList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    
+        <Panel class="sapUiResponsiveMargin" width="auto" height="25%">
+    
+    </Panel>
+    <Table id="invoiceList" headerText="{i18n>invoiceListTitle}" class="saUiResponsiveMargin sapMpageEnableScrolling sapUiScrollDelegate" width="auto" items="{
             path: '/employeeSet'
             }">
         <headerToolbar>

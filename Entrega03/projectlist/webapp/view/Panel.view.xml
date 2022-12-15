@@ -1,0 +1,5 @@
+<mvc:View controllerName="projectlist.controller.Panel" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    <Panel class="sapUiResponsiveMargin" width="auto">
+    <Title text="HOLA"/>
+    </Panel>
+</mvc:View>

@@ -3,6 +3,7 @@
         <pages>
             <Page title="{i18n>homePageTitle}">
                 <content>
+                    <mvc:XMLView viewName="projectlist.view.Panel" />
                     <mvc:XMLView viewName="projectlist.view.EmployeeList" />
                 </content>
             </Page>
