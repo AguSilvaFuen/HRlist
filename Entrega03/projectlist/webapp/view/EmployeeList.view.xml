@@ -1,45 +1,6 @@
-<mvc:View controllerName="projectlist.controller.EmployeeList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
-    
-        <Panel class="sapUiResponsiveMargin" width="auto" height="25%">
-    
-    </Panel>
-    <Table id="invoiceList" headerText="{i18n>invoiceListTitle}" class="saUiResponsiveMargin sapMpageEnableScrolling sapUiScrollDelegate" width="auto" items="{
-            path: '/employeeSet'
-            }">
-        <headerToolbar>
-            <Toolbar>
-                <Title text="{i18n>invoiceListTitle}" />
-                <ToolbarSpacer />
-                <SearchField width="50%" search=".onFilterInvoices" />
-            </Toolbar>
-        </headerToolbar>
-        <columns>
-            <Column hAlign="End" minScreenWidth="Small" demandPopin="true" width="4em">
-                <Text text="{i18n>columnQuantity}" />
-            </Column>
-            <Column>
-                <Text text="{i18n>columName}" />
-            </Column>
-            <Column minScreenWidth="small" demandPopin="true">
-                <Text text="{i18n>columnStatus}" />
-            </Column>
-            <Column minScreenWidth="Tablet" demandPopin="false">
-                <Text text="{i18n>columnSupplier}" />
-            </Column>
-            <Column hAlign="End">
-                <Text text="{i18n>columnPrice}" />
-            </Column>
-        </columns>
-        <items>
-            <ColumnListItem type="Navigation" press=".onPress">
-                <cells>
-                    <ObjectNumber number="{Pernr}" emphasized="fasle" />
-                    <ObjectIdentifier title="{Ename}" />
-                    <Text text="{OrgId}" />
-                    <Text text="{OrgText}" />
-                    <Text text="{JobText}" />
-                </cells>
-            </ColumnListItem>
-        </items>
-    </Table>
+<mvc:View controllerName="projectlist.controller.EmployeeList" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+
+                    <mvc:XMLView viewName="projectlist.view.Panel" />
+                    <mvc:XMLView viewName="projectlist.view.List" />
+                
 </mvc:View>

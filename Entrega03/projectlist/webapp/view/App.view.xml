@@ -1,12 +1,5 @@
 <mvc:View controllerName="projectlist.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
-    <App id="app">
-        <pages>
-            <Page title="{i18n>homePageTitle}">
-                <content>
-                    <mvc:XMLView viewName="projectlist.view.Panel" />
-                    <mvc:XMLView viewName="projectlist.view.EmployeeList" />
-                </content>
-            </Page>
-        </pages>
-    </App>
+    <Shell>
+    <App id="app"/>
+</Shell>
 </mvc:View>
