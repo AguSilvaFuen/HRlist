@@ -1,5 +1,5 @@
 <mvc:View controllerName="projectlist.controller.Panel" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
-    <Panel class="sapUiResponsiveMargin" width="auto" height="15%">
+    <Panel class="sapUiResponsiveMargin" width="auto">
     <Title text="Lista de Empleados"/>
     </Panel>
 </mvc:View>

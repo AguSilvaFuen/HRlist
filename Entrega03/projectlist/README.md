@@ -11,7 +11,7 @@
 |**Module Name**<br>projectlist|
 |**Application Title**<br>List|
 |**Namespace**<br>|
-|**UI5 Theme**<br>sap_fiori_3_dark|
+|**UI5 Theme**<br>sap_horizon_dark|
 |**UI5 Version**<br>1.108.0|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
