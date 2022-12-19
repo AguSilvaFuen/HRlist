@@ -89,8 +89,7 @@
         "async": true,
         "viewPath": "projectlist.view",
         "controlAggregation": "pages",
-        "controlId": "app",
-        "clearControlAggregation": false
+        "controlId": "app"
       },
       "routes": [
         {
@@ -99,7 +98,12 @@
           "target": [
             "TargetEmployeeList"
           ]
-        }
+        },
+        {
+          "pattern": "detail",
+          "name": "detail",
+          "target": "detail"
+      }
       ],
       "targets": {
         "TargetEmployeeList": {
@@ -108,14 +112,18 @@
           "clearControlAggregation": false,
           "viewId": "EmployeeList",
           "viewName": "EmployeeList"
-        }
+        },
+        "detail": {
+          "viewId": "detail",
+          "viewName": "Detail"
+      }
       }
     },
     "rootView": {
       "viewName": "projectlist.view.App",
       "type": "XML",
       "async": true,
-      "id": "App"
+      "id": "app"
     }
   }
 }

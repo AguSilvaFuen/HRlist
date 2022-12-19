@@ -1,6 +1,6 @@
 <mvc:View controllerName="projectlist.controller.EmployeeList" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
-        <Page>
+    <Page>
             <mvc:XMLView viewName="projectlist.view.Panel" />
             <mvc:XMLView viewName="projectlist.view.List" />
-        </Page>
+    </Page>
 </mvc:View>

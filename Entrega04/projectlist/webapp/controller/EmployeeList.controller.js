@@ -7,9 +7,8 @@ sap.ui.define([
 
         return Controller.extend("projectlist.controller.EmployeeList", {
             onInit: function () {
-                
-
             },
+/*
             onFilterInvoices : function (oEvent) {
               
                 var aFilter = [];
@@ -20,11 +19,11 @@ sap.ui.define([
                 var oList = this.byId("invoiceList");
                 var oBinding = oList.getBinding("items");
                 oBinding.filter(aFilter);
-/*
+
 var oddIdBinding = this.getView().byId('invoiceList').getBinding('items');
 var oddIdFilter = new sap.ui.model.Filter({path: 'employeeSet>Ename'});          
 oddIdBinding.filter(oddIdFilter);
-*/
+
             },
             _search: function(oEvent, oList, sFilterProperty) {
                 var sQuery = oEvent.getParameter("query") || oEvent.getParameter("newValue"),
@@ -64,23 +63,10 @@ oddIdBinding.filter(oddIdFilter);
                 }
             },
 
-            
-
-
-
-
-
-
-
-
-
-
-            onPress: function (oEvent) {
-                var oItem = oEvent.getSource()
+*/            
+            onPress : function (oEvent) {
                 var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-                oRouter.navTo("Detail", {
-                    invoicePath: window.encodeURIComponent(oItem.getBindingContext("/employeeSet").getPath().substr(1))
-                });
+                oRouter.navTo("detail");
             }
         });
     });

@@ -1,6 +1,5 @@
-<mvc:View
-	controllerName="projectlist.controller.Detail"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc"> 
-
+<mvc:View controllerName="projectlist.controller.Detail" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" id="detail">
+    <Panel class="sapUiResponsiveMargin" width="auto">
+        <Title text="Empleado" />
+    </Panel>
 </mvc:View>
