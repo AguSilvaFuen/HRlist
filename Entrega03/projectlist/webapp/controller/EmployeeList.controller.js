@@ -7,6 +7,7 @@ sap.ui.define([
 
         return Controller.extend("projectlist.controller.EmployeeList", {
             onInit: function () {
+                
 
             },
             onFilterInvoices : function (oEvent) {

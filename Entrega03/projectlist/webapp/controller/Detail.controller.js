@@ -8,7 +8,8 @@ sap.ui.define([
     "use strict"
     return Controller.extend("projectlist.controller.Detail", {
         onInit: function () {
-
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            oRouter.getRoute("Detail").attachPatternMatched(this._onObjectMatched, this);
         }
     })
 })
